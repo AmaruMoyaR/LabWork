@@ -1,25 +1,27 @@
 # Fdb version 4
-["biber WelcomeLab"] 0 "WelcomeLab.bcf" "WelcomeLab.bbl" "WelcomeLab" 1716916727.0737 0
+["biber WelcomeLab"] 0 "WelcomeLab.bcf" "WelcomeLab.bbl" "WelcomeLab" 1717083640.83067 0
   "WelcomeLab.bcf" 0 -1 0 "pdflatex"
   "ref.bib" 0 -1 0 ""
   (generated)
   "WelcomeLab.bbl"
   "WelcomeLab.blg"
   (rewritten before read)
-["pdflatex"] 1716916725.41899 "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" "WelcomeLab.pdf" "WelcomeLab" 1716916727.07455 0
-  "WelcomeLab.aux" 1716916726 542 6d68bc6932ab607fa480aee45ce3ccce "pdflatex"
+["pdflatex"] 1717083638.36146 "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" "WelcomeLab.pdf" "WelcomeLab" 1717083640.8315 0
+  "WelcomeLab.aux" 1717083640 2525 d8f1ef0259fe308417d497a2ae6d62a5 "pdflatex"
   "WelcomeLab.bbl" 0 -1 0 "biber WelcomeLab"
-  "WelcomeLab.out" 1716916726 104 112c15e46550b64848bce7386adda73f "pdflatex"
-  "WelcomeLab.run.xml" 1716916726 2340 2ad20ba3094b776e2d3ff89aebd72738 "pdflatex"
-  "WelcomeLab.tex" 1716916724 4864 38f7015149a52e575d7c81c6ee6144ce ""
-  "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" 1716916724 4864 38f7015149a52e575d7c81c6ee6144ce ""
+  "WelcomeLab.out" 1717083640 104 112c15e46550b64848bce7386adda73f "pdflatex"
+  "WelcomeLab.run.xml" 1717083640 2340 2ad20ba3094b776e2d3ff89aebd72738 "pdflatex"
+  "WelcomeLab.tex" 1717083637 6052 5fec0f6911da114242f2a0c369c3003f ""
+  "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" 1717083637 6052 5fec0f6911da114242f2a0c369c3003f ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1716257570 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
+  "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1716257028 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1716258058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putb8r.tfm" 1716261697 9960 ae491f4924a229aa309212bc6b6e0ae4 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putb8t.tfm" 1716261697 16484 d8293c90d3cd3b189daade0e12039eb7 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putr8r.tfm" 1716261697 10112 0935d68b0f6b09287a791efd9d9cceab ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putr8t.tfm" 1716261697 16964 e0a219bf8f6ba6a39bf59b1d7131188f ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1716257606 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1716257606 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1716256213 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1716256213 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1716256213 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -38,6 +40,7 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1716257017 1120 8b7d695260f3cff42e636090a8002094 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb" 1716261697 36737 6946087c3bf3ef810605d9989b3e7a11 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb" 1716261697 36507 bc28f9f0cdba50a8a348a6e4dc8a5378 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1716257028 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "c:/texlive/2024/texmf-dist/fonts/vf/adobe/utopia/putb8t.vf" 1716261697 2348 9c9a001b790b32cd1cc6025ff8e5feb3 ""
   "c:/texlive/2024/texmf-dist/fonts/vf/adobe/utopia/putr8t.vf" 1716261697 2352 7c7e532148b2d2f3beb5355670a029b1 ""
   "c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1716259640 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -111,7 +114,9 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716262017 5529302 90924f286bd62ce7380ad2a7c245cc29 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716299218 8225112 293dfb42f2db3f75a664e3e2fdd5a08e ""
   "c:/texlive/2024/texmf.cnf" 1716261998 713 e69b156964470283e0530f5060668171 ""
+  "img/brrr.PNG" 1717082964 102023 7ff16753922b3c9ade9ea5590c5b3525 ""
   "img/escudo.png" 1714427224 66182 a1c3ea081a4ceebab92fc0483bfb1d1a ""
+  "img/path16176.png" 1712612623 512487 fe8a3ddf133eda2719f451318bf65e34 ""
   "img/rect5909.png" 1716916594 43557 731167819a37115222d34edb91077fea ""
   (generated)
   "WelcomeLab.aux"
