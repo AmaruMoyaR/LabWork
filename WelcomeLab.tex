@@ -21,14 +21,14 @@
 
 
 % Title page
-\title{Project:\\ \textbf{Hot and Cold Rubidium}\\\Large{ Dr. Pablo Solano Palma \\ 2024}}
-\author{ Nicolas Vera, Amaru Moya, Enrique Orellana, Omar, Florencia, etc. \ Universidad de Concepción\\ Faculty of Physical and Mathematical Sciences, Physics Department}
+\title{Lab Project:\\ \textbf{Hot n' Cold Rubidium}\\\Large{ Under Supervision of Dr. Pablo Solano Palma \\ 2024}}
+\author{Amaru Moya y basados \\ Universidad de Concepción\\ Faculty of Physical and Mathematical Sciences, Physics Department}
 % \date{\today}
 
 % Header and footer
 \pagestyle{fancy}
 \fancyhead[C]{\includegraphics[width=0.05\textwidth]{img/escudo.png}}
-\fancyhead[L]{\textbf{Thesis Project}\\ Universidad de Concepción}
+\fancyhead[L]{\textbf{Lab Project}\\ Universidad de Concepción}
 \fancyhead[R]{\textbf{Amaru Moya R.}\\ amarumoya@udec.cl}
 \fancyfoot{}
 \begin{document}
@@ -36,8 +36,12 @@
 \maketitle
 \thispagestyle{fancy}
 
-
-
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.5\linewidth]{img/resonancia.jpeg}
+    \caption{sayans! }
+    \label{fig:portada}
+\end{figure}
 
 \clearpage
 % \tableofcontents
@@ -72,12 +76,24 @@
 
 \newpage
 \section*{Rubidium}
+Rubidium is composed naturally of two stable isotopes, $^{85}$Rb and $^{87}$Rb.
 \subsection*{Atomic Structure}
 % Rb Structure, Dlines, 
 
-\begin{figure}
+\begin{figure*}[h]
     \centering
-    \includegraphics[width=0.8\textwidth]{img/brrr.PNG}
+    \includegraphics[width=0.9\textwidth]{img/rb87D2.png}
+    \caption{$^87$Rb $D2$ transition hyperfine structure, with frequency splittings between the hyperfine energy levels.The approximate Landé
+    $g_F$-factors for each level are also given, with the corresponding Zeeman splittings between adjacent magnetic sublevels. (Steck, 2001) }
+    \label{fig:image1}
+\end{figure*}
+
+
+\section*{Laser 1}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/brrr.PNG}
     \caption{(a) Typical sub-Doppler DAVLL spectra recorded for the F = 2 → F line in 87Rb and F = 3 → F 85Rb (black line). The
     sub-Doppler features are superimposed on the conventional DAVLL signal (grey line) obtained by blocking the pump beam. (b) A
     zoomed-in section of (a) showing the sub-Doppler DAVLL signal for the F = 2 → F transitions of 87Rb. Vertical lines indicate the
@@ -85,14 +101,14 @@
     features relative to the line centres arise from the slightly nonlinear laser scan. Spectra were taken at a magnetic field of 9.5 G, a pumppower of 154 µW and a probe power of 20 µW. doi:10.1088/0953-4075/41/8/085401}
     \label{fig:curvas}
 \end{figure}
-\section*{Laser 1}
 
-\begin{figure}
+
+\begin{figure*}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{img/rect5909.png}
     \caption{Set up for Laser 1. Dicroich atomic vapor laser lock (DAVLL) system.}
     \label{fig:laser1}
-\end{figure}
+\end{figure*}
 
 \begin{enumerate}
     \item Osciloscope
@@ -119,21 +135,42 @@
 \end{figure}
 
 
-\subsection*{Objectives}
+
 
 
 \subsection*{Experimental Set Up}
-Rubidium Borosilicate Reference Cell, Ø25.4 mm x 71.8 mm %GC25075-RB	
-SM1FCA - FC/APC Fiber Adapter Plate with External SM1 (1.035"-40) Threads, Wide Key (2.2 mm) 
+\textbf{Rubidium Borosilicate Reference Cell, Ø25.4 mm x 71.8 mm } :
+Since each fill material is associated with a unique absorption spectrum that serves as its fingerprint, the contents of a reference cell can be determined via a linear absorption measurement (as depicted by the simplified schematic above). By scanning a tunable diode laser over a wavelength range and detecting light absorption (A) with a photodetector, a series of peaks will be recorded, which is characteristic of the vapor inside the cell.
+All of the cells offered here are baked and evacuated to 10-8 Torr prior to filling in order to remove contaminants. Additionally, each cell is helium leak checked to ensure the longevity of the vapor cell. The vapor pressure of the alkali metal will cause it to migrate throughout the cell and condense at the coolest area. Heating the windows of the cell rather than the cell body will help ensure the windows stay warmer and thus that the alkali will collect elsewhere. If obstruction of the optics becomes an issue, apply cooling to an area on the cell body, such as near the fill stem, and heat the windows in an alternating fashion to drive the metal from the window surfaces and collect it at the cool spot. The metal may eventually move back to the windows depending on how the cell is heated.
+The rubidium reference cell (GC19075-RB) is sold with the natural isotope ratio of Rb, which is $72.15\% \, ^{85}$Rb and $27.85\% \, ^{87}$Rb  \\
+%GC25075-RB	
+\textbf{SM1FCA - FC/APC Fiber Adapter Plate with External SM1 (1.035"-40) Threads, Wide Key (2.2 mm)}
 
-
+\subsection*{Doppler broadened absorption in a vapor cell}
+The rubidium atoms in the vapor cell are moving according to the Maxwell-Boltzmann velocity distribution at a temperature of around 400 K. The Doppler broadened lines have line widths of several 100 MHz. This is because even if we detune the probe light by several 100 MHz from the resonance frequency for an atom at rest, there are still atoms within the vapor cell that are moving at the right velocity relative to the wavevector of the light so that they see the light as being exactly on resonance in their center-of-mass frame. Those atoms absorb light from the incident beam, and thereby attenuate the light beam passing through the vapor cell.
 
 \section*{Bragg Reflections in Cold Rubidium}
-\subsection*{Objectives}
+
 
 
 
 \subsection*{Experimental Set Up}
+
+
+\subsection*{MOT - Atom Trapping}
+e. Invented at MIT and first demonstrated at Bell Labs [4], it combines the abilities of both cooling and also trapping atoms, limiting both their momenta and their positions, while remaining experimentally simple to implement and to integrate with other experimental needs. Using MOTs and other laser cooling methods, a wide variety of ultracold atomic and molecular gases are produced routinely in labs around the world and applied to a range of scientific pursuits, e.g. matter-wave interferometry with coherent atomic beams, condensed-matter like systems created from quantum-degenerate gases, and novel atomic clocks and other modes of precision measurement.
+
+\begin{enumerate}
+    \item Scattering Rate
+    \item Radiation Pressure
+    \item Doppler Shift
+    \item Doppler Cooling
+    \item Capture Velocity
+    \item Doppler Temperature Limit and Doppler Molasses
+    \item Effects of the Zeeman shift on light scattering
+    \item Sub-Doppler Cooling
+    \item 
+\end{enumerate}
 
 \newpage
 \section*{References}
