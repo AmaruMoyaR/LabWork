@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber WelcomeLab"] 0 "WelcomeLab.bcf" "WelcomeLab.bbl" "WelcomeLab" 1717454672.07027 0
+["biber WelcomeLab"] 0 "WelcomeLab.bcf" "WelcomeLab.bbl" "WelcomeLab" 1717462136.77877 0
   "WelcomeLab.bcf" 0 -1 0 "pdflatex"
   "ref.bib" 0 -1 0 ""
   (generated)
   "WelcomeLab.bbl"
   "WelcomeLab.blg"
   (rewritten before read)
-["pdflatex"] 1717454669.40929 "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" "WelcomeLab.pdf" "WelcomeLab" 1717454672.07133 0
-  "WelcomeLab.aux" 1717454671 3384 3ac1623983b26f87d9e3e3989ab5788c "pdflatex"
+["pdflatex"] 1717462133.61619 "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" "WelcomeLab.pdf" "WelcomeLab" 1717462136.77972 0
+  "WelcomeLab.aux" 1717462136 3616 dcccfb016000dec5fa08d167ff97524d "pdflatex"
   "WelcomeLab.bbl" 0 -1 0 "biber WelcomeLab"
-  "WelcomeLab.out" 1717454671 104 112c15e46550b64848bce7386adda73f "pdflatex"
-  "WelcomeLab.run.xml" 1717454671 2340 2ad20ba3094b776e2d3ff89aebd72738 "pdflatex"
-  "WelcomeLab.tex" 1717454668 9823 04d3571cefac40a1844c8bf7d7c2860a ""
-  "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" 1717454668 9823 04d3571cefac40a1844c8bf7d7c2860a ""
+  "WelcomeLab.out" 1717462136 104 112c15e46550b64848bce7386adda73f "pdflatex"
+  "WelcomeLab.run.xml" 1717462136 2340 2ad20ba3094b776e2d3ff89aebd72738 "pdflatex"
+  "WelcomeLab.tex" 1717462129 10019 b306cbe94801b7e6806f323e0bea77b5 ""
+  "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" 1717462129 10019 b306cbe94801b7e6806f323e0bea77b5 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1716257570 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1716257028 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1716258058 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -122,6 +122,7 @@
   "c:/texlive/2024/texmf.cnf" 1716261998 713 e69b156964470283e0530f5060668171 ""
   "img/brrr.PNG" 1717082964 102023 7ff16753922b3c9ade9ea5590c5b3525 ""
   "img/escudo.png" 1714427224 66182 a1c3ea081a4ceebab92fc0483bfb1d1a ""
+  "img/image1.png" 1717453029 380145 a0cf0231ad3e2fde7f5d5a4f3e75d60f ""
   "img/path16176.png" 1712612623 512487 fe8a3ddf133eda2719f451318bf65e34 ""
   "img/rb87D2.png" 1717454167 128777 73ad06cc996d80dca4f6169059d029fb ""
   "img/rect5909.png" 1716916594 43557 731167819a37115222d34edb91077fea ""
