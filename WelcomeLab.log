@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  3 JUN 2024 20:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.5.21)  6 JUN 2024 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -744,9 +744,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-21.31914pt}.
 
 [3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./img/brrr.PNG> <./img/rect5909.png>]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 172.
+ (c:/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
 File: img/escudo.png Graphic file (type png)
 <use img/escudo.png>
-Package pdftex.def Info: img/escudo.png  used on input line 184.
+Package pdftex.def Info: img/escudo.png  used on input line 187.
 (pdftex.def)             Requested size: 24.17207pt x 29.7191pt.
 
 
@@ -756,10 +760,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-21.31914pt}.
 
-[4 <./img/image1.png> <./img/path16176.png>]
+[4{c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./img/image1.png> <./img/path16176.png>]
 File: img/escudo.png Graphic file (type png)
 <use img/escudo.png>
-Package pdftex.def Info: img/escudo.png  used on input line 192.
+Package pdftex.def Info: img/escudo.png  used on input line 195.
 (pdftex.def)             Requested size: 24.17207pt x 29.7191pt.
 
 
@@ -781,18 +785,18 @@ Package logreq Info: Writing requests to 'WelcomeLab.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 16800 strings out of 474049
- 291937 string characters out of 5746277
+ 16823 strings out of 474049
+ 292598 string characters out of 5746277
  1938754 words of memory out of 5000000
- 39005 multiletter control sequences out of 15000+600000
- 618647 words of font info for 80 fonts, out of 8000000 for 9000
+ 39023 multiletter control sequences out of 15000+600000
+ 618960 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,14n,81p,1504b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on WelcomeLab.pdf (6 pages, 1367507 bytes).
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on WelcomeLab.pdf (6 pages, 1391219 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 95 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  41 named destinations out of 1000 (max. 500000)
  44 words of extra memory for PDF output out of 10000 (max. 10000000)
 

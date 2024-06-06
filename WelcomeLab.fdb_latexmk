@@ -1,19 +1,20 @@
 # Fdb version 4
-["biber WelcomeLab"] 0 "WelcomeLab.bcf" "WelcomeLab.bbl" "WelcomeLab" 1717462136.77877 0
+["biber WelcomeLab"] 0 "WelcomeLab.bcf" "WelcomeLab.bbl" "WelcomeLab" 1717700563.61552 0
   "WelcomeLab.bcf" 0 -1 0 "pdflatex"
   "ref.bib" 0 -1 0 ""
   (generated)
   "WelcomeLab.bbl"
   "WelcomeLab.blg"
   (rewritten before read)
-["pdflatex"] 1717462133.61619 "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" "WelcomeLab.pdf" "WelcomeLab" 1717462136.77972 0
-  "WelcomeLab.aux" 1717462136 3616 dcccfb016000dec5fa08d167ff97524d "pdflatex"
+["pdflatex"] 1717700560.2681 "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" "WelcomeLab.pdf" "WelcomeLab" 1717700563.61637 0
+  "WelcomeLab.aux" 1717700563 3616 dcccfb016000dec5fa08d167ff97524d "pdflatex"
   "WelcomeLab.bbl" 0 -1 0 "biber WelcomeLab"
-  "WelcomeLab.out" 1717462136 104 112c15e46550b64848bce7386adda73f "pdflatex"
-  "WelcomeLab.run.xml" 1717462136 2340 2ad20ba3094b776e2d3ff89aebd72738 "pdflatex"
-  "WelcomeLab.tex" 1717462129 10019 b306cbe94801b7e6806f323e0bea77b5 ""
-  "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" 1717462129 10019 b306cbe94801b7e6806f323e0bea77b5 ""
+  "WelcomeLab.out" 1717700563 104 112c15e46550b64848bce7386adda73f "pdflatex"
+  "WelcomeLab.run.xml" 1717700563 2340 2ad20ba3094b776e2d3ff89aebd72738 "pdflatex"
+  "WelcomeLab.tex" 1717700558 10087 094090ad161b6d6b6d15747cbd6e349f ""
+  "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" 1717700558 10087 094090ad161b6d6b6d15747cbd6e349f ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1716257570 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
+  "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1716257028 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1716257028 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1716258058 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putb8r.tfm" 1716261697 9960 ae491f4924a229aa309212bc6b6e0ae4 ""
@@ -21,6 +22,7 @@
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putr8r.tfm" 1716261697 10112 0935d68b0f6b09287a791efd9d9cceab ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putr8t.tfm" 1716261697 16964 e0a219bf8f6ba6a39bf59b1d7131188f ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1716257606 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
+  "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1716257606 1536 06717a2b50de47d4087ac0e6cd759455 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1716257606 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1716256213 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1716256213 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -47,6 +49,7 @@
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1716256213 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1716256213 32762 7fee39e011c23b3589931effd97b9702 ""
   "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1716257028 138258 6525c253f16cededa14c7fd0da7f67b2 ""
+  "c:/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb" 1716257028 169201 651a6333c3213b38091f54d2ab2d2cd6 ""
   "c:/texlive/2024/texmf-dist/fonts/vf/adobe/utopia/putb8t.vf" 1716261697 2348 9c9a001b790b32cd1cc6025ff8e5feb3 ""
   "c:/texlive/2024/texmf-dist/fonts/vf/adobe/utopia/putr8t.vf" 1716261697 2352 7c7e532148b2d2f3beb5355670a029b1 ""
   "c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1716259640 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -75,6 +78,7 @@
   "c:/texlive/2024/texmf-dist/tex/latex/base/ifthen.sty" 1716258938 5319 2b738d02ce36ada6dcdd9534940db0ee ""
   "c:/texlive/2024/texmf-dist/tex/latex/base/inputenc.sty" 1716258938 5048 425739d70251273bf93e3d51f3c40048 ""
   "c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo" 1716258939 8448 dbc0dbf4156c0bb9ba01a1c685d3bad0 ""
+  "c:/texlive/2024/texmf-dist/tex/latex/base/t1cmtt.fd" 1716258939 2443 790016d75def8d3127df5c216a45abcc ""
   "c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/numeric.bbx" 1716256573 1818 9ed166ac0a9204a8ebe450ca09db5dde ""
   "c:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx" 1716256573 25680 409c3f3d570418bc545e8065bebd0688 ""
   "c:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.cfg" 1716256573 69 249fa6df04d948e51b6d5c67bea30c42 ""
