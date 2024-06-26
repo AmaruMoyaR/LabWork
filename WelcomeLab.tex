@@ -44,10 +44,10 @@
 \end{figure}
 
 \clearpage
-% \tableofcontents
+\tableofcontents
 % \thispagestyle{fancy}
 
-% \clearpage
+\clearpage
 % Begin page numbers
 \fancyfoot[C]{\thepage}
 \pagenumbering{arabic}
@@ -66,17 +66,24 @@
 % marco metodologico, objetivos
 
 \section*{Summary}
-\addcontentsline{toc}{section}{Introduction} % For the contents page
+\addcontentsline{toc}{section}{Summary} % For the contents page
 
 % Describa los principales temas que se abordarán en el proyecto: objetivos, metodología y resultados esperados. La extensión máxima de esta sección es de 1 página (utilizar formato tamaño carta, fuente Verdana tamaño 10 o similar).
 
 
-\noindent The main objective of this project is to study and manipulate the index of refraction of a Rubidium vapour through the interaction with laser light of two different wavelengths. Using a theoretical, numerical and experimental approach, we aim to understand and characterize the Rubidium vapour and the effects of light interacting with this system. The project will be divided into three main stages: theoretical study, numerical simulations, and experimental validation. The theoretical study will focus on the fundamentals of atomic quantum optics, with emphasis on the interaction between light and matter. The numerical simulations will be used to model the interaction between light and Rubidium vapour, and to predict the behaviour of the system under different conditions. Finally, the experimental validation will involve the construction of an experimental setup to measure the index of refraction of the Rubidium vapour and compare the results with the theoretical and numerical predictions. The expected results of this project include a better understanding of the interaction between light and matter, and the development of new techniques for manipulating the index of refraction of Rubidium vapour. This research has the potential to have a significant impact on the field of quantum optics and quantum information processing, and to open up new possibilities for the development of quantum technologies.
+\noindent The main objective of this project is to study and manipulate the index of refraction of a Rubidium vapour through the interaction with laser light of two different wavelengths. Using a theoretical, numerical and experimental approach, we aim to understand and characterize the Rubidium vapour and the effects of light interacting with this system. The project will be divided into three main stages: theoretical study, numerical simulations, and experimental validation. The theoretical study will focus on the fundamentals of atomic quantum optics, with emphasis on the interaction between light and matter. The numerical simulations will be used to model the interaction between light and Rubidium vapour, and to predict the behaviour of the system under different conditions. Finally, the experimental validation will involve the construction of an experimental setup to measure the index of refraction of the Rubidium vapour and compare the results with the theoretical and numerical predictions. The expected results of this project include a better understanding of the interaction between light and matter, and the development of new techniques for manipulating the index of refraction of Rubidium vapour. This research has the potential to have a significant impact on the field of quantum optics and quantum information processing, and to open up new possibilities for the development of quantum technologies.\\
+
+\noindent As a note, we will reference and quote the work of Arina Tashchilina (\href{https://arinainphysics.com/}{found here!}) who has provided an amazing source for new students hoping to learn about experimental atomic physics. 
+
 
 
 \newpage
 \section*{Rubidium}
-Rubidium is composed naturally of two stable isotopes, $^{85}$Rb and $^{87}$Rb.
+\addcontentsline{toc}{section}{Rubidium Structure}
+Rubidium is a soft, ductile alkali metal, composed naturally of two stable isotopes, $^{85}$Rb and $^{87}$Rb, in the following ratio; $72.15\%$ corresponds to  $^{85}$Rb and $27.85\%$ to  $^{87}$Rb 
+% \cite{Steck2003RbDL,UDportal}. 
+The latter is well known in the atomic physics community for being one of the most used elements utilized for laser cooling and realizations of Bose Einstein Condensates (BEC). This is due to the fact that the atomic transitions of rubidium are in wavelengths that are easily accessible by commercial lasers.
+
 \subsection*{Atomic Structure}
 % Rb Structure, Dlines, 
 
@@ -87,9 +94,6 @@ Rubidium is composed naturally of two stable isotopes, $^{85}$Rb and $^{87}$Rb.
     $g_F$-factors for each level are also given, with the corresponding Zeeman splittings between adjacent magnetic sublevels. (Steck, 2001) }
     \label{fig:image1}
 \end{figure*}
-
-
-\section*{Laser 1}
 
 \begin{figure}[h]
     \centering
@@ -103,19 +107,12 @@ Rubidium is composed naturally of two stable isotopes, $^{85}$Rb and $^{87}$Rb.
 \end{figure}
 
 
-\begin{figure*}[h]
-    \centering
-    \includegraphics[width=0.5\textwidth]{img/rect5909.png}
-    \caption{Set up for Laser 1. Dicroich atomic vapor laser lock (DAVLL) system.}
-    \label{fig:laser1}
-\end{figure*}
 
-\begin{figure*}[h]
-    \centering
-    \includegraphics[width=0.9\textwidth]{img/image1.png}
-    \caption{Bragg Reflections in Rubidium Vapours.}
-    \label{fig:braggref}
-\end{figure*}
+\newpage
+\section*{How does a Laser Work? }
+\addcontentsline{toc}{section}{Laser Introducted}
+\section*{Laser 1}
+
 
 
 \begin{enumerate}
@@ -134,6 +131,24 @@ Rubidium is composed naturally of two stable isotopes, $^{85}$Rb and $^{87}$Rb.
 
 
 \section*{Bragg Reflections in Rubidium Vapours}
+\addcontentsline{toc}{section}{Bragg Reflections in Rubidium Vapours}
+
+
+
+
+\begin{figure*}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{img/rect5909.png}
+    \caption{Set up for Laser 1. Dicroich atomic vapor laser lock (DAVLL) system.}
+    \label{fig:laser1}
+\end{figure*}
+
+\begin{figure*}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/image1.png}
+    \caption{Bragg Reflections in Rubidium Vapours.}
+    \label{fig:braggref}
+\end{figure*}
 
 \begin{figure}
     \centering
