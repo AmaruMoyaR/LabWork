@@ -84,16 +84,7 @@ Rubidium is a soft, ductile alkali metal, composed naturally of two stable isoto
 % \cite{Steck2003RbDL,UDportal}. 
 The latter is well known in the atomic physics community for being one of the most used elements utilized for laser cooling and realizations of Bose Einstein Condensates (BEC). This is due to the fact that the atomic transitions of rubidium are in wavelengths that are easily accessible by commercial lasers.
 
-\subsection*{Atomic Structure}
-% Rb Structure, Dlines, 
 
-\begin{figure*}[h]
-    \centering
-    \includegraphics[width=0.9\textwidth]{img/rb87D2.png}
-    \caption{$^87$Rb $D2$ transition hyperfine structure, with frequency splittings between the hyperfine energy levels.The approximate Landé
-    $g_F$-factors for each level are also given, with the corresponding Zeeman splittings between adjacent magnetic sublevels. (Steck, 2001) }
-    \label{fig:image1}
-\end{figure*}
 
 \begin{figure}[h]
     \centering
@@ -102,15 +93,20 @@ The latter is well known in the atomic physics community for being one of the mo
     sub-Doppler features are superimposed on the conventional DAVLL signal (grey line) obtained by blocking the pump beam. (b) A
     zoomed-in section of (a) showing the sub-Doppler DAVLL signal for the F = 2 → F transitions of 87Rb. Vertical lines indicate the
     expected line centres of the three transitions (solid lines) and three crossovers (dashed lines). Small discrepancies in the location of spectral
-    features relative to the line centres arise from the slightly nonlinear laser scan. Spectra were taken at a magnetic field of 9.5 G, a pumppower of 154 µW and a probe power of 20 µW. doi:10.1088/0953-4075/41/8/085401}
+    features relative to the line centres arise from the slightly nonlinear laser scan. Spectra were taken at a magnetic field of 9.5 G, a pump power of 154 µW and a probe power of 20 µW. doi:10.1088/0953-4075/41/8/085401}
     \label{fig:curvas}
 \end{figure}
 
 
 
+
+
+\subsection*{Get those other Lasers paying rent}
+\addcontentsline{toc}{section}{How to make Laser 2 and 3 work}
+
 \newpage
 \section*{How does a Laser Work? }
-\addcontentsline{toc}{section}{Laser Introducted}
+\addcontentsline{toc}{section}{Laser Theory Introduction}
 \section*{Laser 1}
 
 
@@ -125,15 +121,46 @@ The latter is well known in the atomic physics community for being one of the mo
     \item Rubidium Heater for Glass Cell
 \end{enumerate}
 
+\begin{figure*}[h]
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/Image (1).jpeg}
+    \caption{This is what the TEC looks like inside!}
+    \label{fig:tec}
+\end{figure*}
+
 \section*{Laser 2}
 
-\section*{Laser 3}
+\subsection*{Optical Linewidth}
+Also known as FWHM--HWHM (these concepts are not exactly the same!). This linewidth is where we consider a cavity being resonant. It is usually a Lorentzian distribution.
+The ideal case of a laser would be a delta distribution in frequency, but even for us physicists, that's too ideal.
+The linewidth of a light beam is strongly related to the temporal coherence.
 
 
-\section*{Bragg Reflections in Rubidium Vapours}
-\addcontentsline{toc}{section}{Bragg Reflections in Rubidium Vapours}
+\section*{Gaussian Beam}
+(Check the book of Saleh and Teich, Fundamentals of Photonics for the official reference!)
 
+\section*{Bragg Reflections in Rubidium Vapors}
+\addcontentsline{toc}{section}{Bragg Reflections in Rubidium Vapors}
 
+\subsection*{How in earth do I find the Rubidium Transition Wavelengths in the experiment?}
+\addcontentsline{toc}{section}{Find the Rubidium Transition Wavelengths}
+
+To start finding the resonances in the DAVLL system (see Fig \ref{fig:curvas}), you first will have to turn on the following (in no particular order, don't worry!):
+\begin{enumerate}
+    \item Osciloscope
+    \item Signal Generator
+    \item Laser 1 Box
+    \item Current Control
+    \item Heaters for the Rb Cell
+    \item Photodiodes at the end of the laser path (see Fig \ref{fig:laser1})
+\end{enumerate}
+
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.6\textwidth]{img/Image (5).jpeg}
+    \caption{Dont be afraid of a "little`` mess! Part of the experimental life.}
+    \label{fig:normalorder}
+\end{figure*}
 
 
 \begin{figure*}[h]
@@ -207,15 +234,24 @@ Invented at MIT and first demonstrated at Bell Labs [4], it combines the abiliti
 \end{enumerate}
 
 
-\section*{Cooking up a MOT}
-how do we afford to get to these very low pressures ? we have to literally cook the MOT at 100 Celcius for a determined amount of time, this so we can clear up any impurities that might be present in the chamber. This is a very important step, since the MOT vacuum has to be arount $10^{-8}$ Torr.
+\section*{Cooking up (Freezing up?) a MOT}
+How do we afford to get to these very low pressures ? We have to literally cook the MOT at 100 Celcius for a determined amount of time, this, so we can clear up any impurities that might be present in the chamber. This is a very important step, since the MOT vacuum has to be arount $10^{-8}$ Torr.
+
+\newpage
+\subsection*{Atomic Structure}
+% Rb Structure, Dlines, 
+
+\begin{figure*}[h]
+    \centering
+    \includegraphics[width=0.9\textwidth]{img/rb87D2.png}
+    \caption{$^87$Rb $D2$ transition hyperfine structure, with frequency splittings between the hyperfine energy levels.The approximate Landé
+    $g_F$-factors for each level are also given, with the corresponding Zeeman splittings between adjacent magnetic sublevels. (Steck, 2001) }
+    \label{fig:image1}
+\end{figure*}
 
 \newpage
 \section*{References}
 
-% Incluya en esta sección, el listado de referencias bibliográficas completas citadas en la sección Formulación de la Propuesta. Extensión: 2 páginas (utilizar formato tamaño carta, fuente Verdana tamaño 10 o similar).
-
-% por lo menos 20 que tengo que manejar bien
 
 
 \end{document}

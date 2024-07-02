@@ -242,44 +242,49 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putb8t.tfm
-INPUT ./img/rb87D2.png
-INPUT ./img/rb87D2.png
-INPUT ./img/rb87D2.png
-INPUT ./img/rb87D2.png
-INPUT ./img/rb87D2.png
 INPUT ./img/brrr.PNG
 INPUT ./img/brrr.PNG
 INPUT ./img/brrr.PNG
 INPUT ./img/brrr.PNG
 INPUT ./img/brrr.PNG
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm
-INPUT ./img/escudo.png
-INPUT ./img/escudo.png
-INPUT ./img/escudo.png
-INPUT ./img/escudo.png
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/utopia/putb8t.vf
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putb8r.tfm
-INPUT ./img/rect5909.png
-INPUT ./img/rect5909.png
-INPUT ./img/rect5909.png
-INPUT ./img/rect5909.png
-INPUT ./img/rect5909.png
-INPUT ./img/image1.png
-INPUT ./img/image1.png
-INPUT ./img/image1.png
-INPUT ./img/image1.png
-INPUT ./img/image1.png
-INPUT ./img/path16176.png
-INPUT ./img/path16176.png
-INPUT ./img/path16176.png
-INPUT ./img/path16176.png
-INPUT ./img/path16176.png
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putb8t.tfm
 INPUT ./img/escudo.png
 INPUT ./img/escudo.png
 INPUT ./img/escudo.png
 INPUT ./img/escudo.png
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/utopia/putb8t.vf
+INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/utopia/putb8r.tfm
+INPUT ./img/Image (1).jpeg
+INPUT ./img/Image (1).jpeg
+INPUT ./img/Image (1).jpeg
+INPUT ./img/Image (1).jpeg
+INPUT ./img/Image (1).jpeg
+INPUT ./img/Image (5).jpeg
+INPUT ./img/Image (5).jpeg
+INPUT ./img/Image (5).jpeg
+INPUT ./img/Image (5).jpeg
+INPUT ./img/Image (5).jpeg
+INPUT ./img/rect5909.png
+INPUT ./img/rect5909.png
+INPUT ./img/rect5909.png
+INPUT ./img/rect5909.png
+INPUT ./img/rect5909.png
+INPUT ./img/image1.png
+INPUT ./img/image1.png
+INPUT ./img/image1.png
+INPUT ./img/image1.png
+INPUT ./img/image1.png
+INPUT ./img/path16176.png
+INPUT ./img/path16176.png
+INPUT ./img/path16176.png
+INPUT ./img/path16176.png
+INPUT ./img/path16176.png
+INPUT ./img/escudo.png
+INPUT ./img/escudo.png
+INPUT ./img/escudo.png
+INPUT ./img/escudo.png
 INPUT ./img/escudo.png
 INPUT ./img/escudo.png
 INPUT ./img/escudo.png
@@ -293,6 +298,15 @@ INPUT ./img/escudo.png
 INPUT ./img/escudo.png
 INPUT ./img/escudo.png
 INPUT c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT ./img/rb87D2.png
+INPUT ./img/rb87D2.png
+INPUT ./img/rb87D2.png
+INPUT ./img/rb87D2.png
+INPUT ./img/rb87D2.png
+INPUT ./img/escudo.png
+INPUT ./img/escudo.png
+INPUT ./img/escudo.png
+INPUT ./img/escudo.png
 INPUT ./img/escudo.png
 INPUT ./img/escudo.png
 INPUT ./img/escudo.png

@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber WelcomeLab"] 0 "WelcomeLab.bcf" "WelcomeLab.bbl" "WelcomeLab" 1719419125.4385 0
+["biber WelcomeLab"] 0 "WelcomeLab.bcf" "WelcomeLab.bbl" "WelcomeLab" 1719927751.75008 0
   "WelcomeLab.bcf" 0 -1 0 "pdflatex"
   "ref.bib" 0 -1 0 ""
   (generated)
   "WelcomeLab.bbl"
   "WelcomeLab.blg"
   (rewritten before read)
-["pdflatex"] 1719419118.92865 "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" "WelcomeLab.pdf" "WelcomeLab" 1719419125.44012 0
-  "WelcomeLab.aux" 1719419124 3932 6c35545af1c3cd27e8cf4d4e5664edda "pdflatex"
+["pdflatex"] 1719927749.05756 "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" "WelcomeLab.pdf" "WelcomeLab" 1719927751.75095 0
+  "WelcomeLab.aux" 1719927751 4700 fb3e2a2093000dbfc0b77122aee3d035 "pdflatex"
   "WelcomeLab.bbl" 0 -1 0 "biber WelcomeLab"
-  "WelcomeLab.out" 1719419124 589 f117675b517652efe29750585d60b8a8 "pdflatex"
-  "WelcomeLab.run.xml" 1719419124 2340 2ad20ba3094b776e2d3ff89aebd72738 "pdflatex"
-  "WelcomeLab.tex" 1719419117 11696 88c3a1296fef8284ce8f685ca25928b8 ""
-  "WelcomeLab.toc" 1719419124 247 f04a2f7a9f76982cb7dbcaca252be2b9 "pdflatex"
-  "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" 1719419117 11696 88c3a1296fef8284ce8f685ca25928b8 ""
+  "WelcomeLab.out" 1719927751 1100 1e1280844810fbbeeba8f404f5727389 "pdflatex"
+  "WelcomeLab.run.xml" 1719927751 2340 2ad20ba3094b776e2d3ff89aebd72738 "pdflatex"
+  "WelcomeLab.tex" 1719927745 13077 282d5ddf0b47521f15c6722245122c43 ""
+  "WelcomeLab.toc" 1719927751 410 d7b65eb471575aeb7ec3562962490129 "pdflatex"
+  "c:/Users/maru/Documents/GitHub/LabWork/WelcomeLab.tex" 1719927745 13077 282d5ddf0b47521f15c6722245122c43 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1716257570 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1716257028 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1716257028 2900 1537cc8184ad1792082cd229ecc269f4 ""
@@ -127,6 +127,8 @@
   "c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1716262017 5529302 90924f286bd62ce7380ad2a7c245cc29 ""
   "c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1716299218 8225112 293dfb42f2db3f75a664e3e2fdd5a08e ""
   "c:/texlive/2024/texmf.cnf" 1716261998 713 e69b156964470283e0530f5060668171 ""
+  "img/Image (1).jpeg" 1719927431 133371 ebf2d818d47ff4afece8c9095cea08a7 ""
+  "img/Image (5).jpeg" 1719927371 321218 918fbd4f6585215580461d2dbf0a0ff8 ""
   "img/brrr.PNG" 1717082964 102023 7ff16753922b3c9ade9ea5590c5b3525 ""
   "img/escudo.png" 1714427224 66182 a1c3ea081a4ceebab92fc0483bfb1d1a ""
   "img/image1.png" 1717453029 380145 a0cf0231ad3e2fde7f5d5a4f3e75d60f ""

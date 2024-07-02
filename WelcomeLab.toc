@@ -1,4 +1,6 @@
 \contentsline {section}{Summary}{1}{section*.2}%
 \contentsline {section}{Rubidium Structure}{2}{section*.3}%
-\contentsline {section}{Laser Introducted}{3}{section*.5}%
-\contentsline {section}{Bragg Reflections in Rubidium Vapours}{3}{section*.9}%
+\contentsline {section}{How to make Laser 2 and 3 work}{2}{section*.4}%
+\contentsline {section}{Laser Theory Introduction}{3}{section*.5}%
+\contentsline {section}{Bragg Reflections in Rubidium Vapors}{3}{section*.10}%
+\contentsline {section}{Find the Rubidium Transition Wavelengths}{3}{section*.11}%
