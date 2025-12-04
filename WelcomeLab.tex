@@ -10,6 +10,7 @@
 \usepackage{fancyhdr}
 \usepackage{multicol}
 \usepackage{utopia}
+\usepackage{xcolor}
 \addbibresource{ref.bib}
 \fontfamily{put}\selectfont
 \setlength{\columnsep}{40pt}
@@ -22,7 +23,7 @@
 
 % Title page
 \title{Lab Project:\\ \textbf{Hot n' Cold Rubidium}\\\Large{ Under Supervision of Dr. Pablo Solano Palma \\ 2024}}
-\author{Amaru Moya y basados \\ Universidad de Concepción\\ Faculty of Physical and Mathematical Sciences, Physics Department}
+\author{Amaru Moya et. al. \\ Universidad de Concepción\\ Faculty of Physical and Mathematical Sciences, Physics Department}
 % \date{\today}
 
 % Header and footer
@@ -71,7 +72,8 @@
 % Describa los principales temas que se abordarán en el proyecto: objetivos, metodología y resultados esperados. La extensión máxima de esta sección es de 1 página (utilizar formato tamaño carta, fuente Verdana tamaño 10 o similar).
 
 
-\noindent The main objective of this project is to study and manipulate the index of refraction of a Rubidium vapour through the interaction with laser light of two different wavelengths. Using a theoretical, numerical and experimental approach, we aim to understand and characterize the Rubidium vapour and the effects of light interacting with this system. The project will be divided into three main stages: theoretical study, numerical simulations, and experimental validation. The theoretical study will focus on the fundamentals of atomic quantum optics, with emphasis on the interaction between light and matter. The numerical simulations will be used to model the interaction between light and Rubidium vapour, and to predict the behaviour of the system under different conditions. Finally, the experimental validation will involve the construction of an experimental setup to measure the index of refraction of the Rubidium vapour and compare the results with the theoretical and numerical predictions. The expected results of this project include a better understanding of the interaction between light and matter, and the development of new techniques for manipulating the index of refraction of Rubidium vapour. This research has the potential to have a significant impact on the field of quantum optics and quantum information processing, and to open up new possibilities for the development of quantum technologies.\\
+\noindent The main objective of this project is to study and manipulate the index of refraction of a Rubidium vapour through the interaction with laser light of two different wavelengths. Using a theoretical, numerical and experimental approach, we aim to understand and characterize the Rubidium vapour and the effects of light interacting with this system. The project will be divided into three main stages: theoretical study, numerical simulations, and experimental validation. The theoretical study will focus on the fundamentals of atomic quantum optics, with emphasis on the interaction between light and matter. The numerical simulations will be used to model the interaction between light and Rubidium vapour, and to predict the behaviour of the system under different conditions. Finally, the experimental validation will involve the construction of an experimental setup to measure the index of refraction of the Rubidium vapour and compare the results with the theoretical and numerical predictions. The expected results of this project include a better understanding of the interaction between light and matter, and the development of new techniques for manipulating the index of refraction of Rubidium vapour. This research has the potential to {\color{red} be a MOT....}
+%  have a significant impact on the field of quantum optics and quantum information processing, and to open up new possibilities for the development of quantum technologies.\\
 
 \noindent As a note, we will reference and quote the work of Arina Tashchilina (\href{https://arinainphysics.com/}{found here!}) who has provided an amazing source for new students hoping to learn about experimental atomic physics. 
 
@@ -107,7 +109,7 @@ The latter is well known in the atomic physics community for being one of the mo
 \newpage
 \section*{How does a Laser Work? }
 \addcontentsline{toc}{section}{Laser Theory Introduction}
-\section*{Laser 1}
+\subsection*{Laser 1}
 
 
 
@@ -128,21 +130,209 @@ The latter is well known in the atomic physics community for being one of the mo
     \label{fig:tec}
 \end{figure*}
 
-\section*{Laser 2}
+\subsection*{Laser 2}
 
-\subsection*{Optical Linewidth}
-Also known as FWHM--HWHM (these concepts are not exactly the same!). This linewidth is where we consider a cavity being resonant. It is usually a Lorentzian distribution.
+
+\section*{Locking a Laser}
+
+
+In order to perform experiments with atomic systems, two main things must be taken into account: first, the laser linewidth must be narrower than the atomic transition linewidth $\gamma$, and second, we must be able to control the center frequency $\omega$ of the laser near the transitions. 
+
+For the former requirement, most commercial grade lasers already have the needed linewitdths. Since at the Laboratory of Atomic and Molecular Physics (LAMP) we develop our own lasers, we have two main mechanisms to narrow the linewidth; optical feedback from a diffraction grating in LITTROW configuration %(\cite{Hawthorn2001})
+, and optical feedback from an external cavity. %(\cite{Drullinger_1987}).
+ Both of these mechanisms can be used to achieve very narrow linewidths.
+
+For the latter requirement, it is now standard practice to \textbf{lock} the laser frequency to an atomic transition. This is done by deflecting a small portion of the laser light to an atomic reference system. The light will interact with an atomic vapour cell, and the transmitted light will be detected using a photodiode. This signal can then be used to send electrical signals and control the laser frequency.
+In the section that follows, we will explain in further detail how to \textbf{lock your laser to an atomic transition}.
+
+\subsection*{Locking Mechanisms}
+
+
+Laser diodes have been effective tools for atomic physics experiments. However, as we have hinted, the center frequency of a laser diode is not stable enough as is, being very sensitive to current, temperature, humidity and the environment in general; this will have an effect on the diode frequency such that it will change from the expected one (known as \textit{Drift}). To overcome this problem, the laser frequency is \textit{locked} to an atomic resonance; this means that the laser frequency is continuously adjusted and stabilized via feedback. 
+The feedback is usually done by modulating the laser current, and using the error signal from the atomic reference to correct the frequency.
+
+
+There are two main quantities which can be used to study the stability of a laser: the Power Spectral Density (studied in frequency domain) and the Allan Deviation (studied in time domain). The first one is associated with the linewidth of the laser and is studied by a beat-note analysis or autocorrelator, while the latter is associated to long term effects on performance, akin to standard variation, and studied as a time series from a beat-note or wavemeter. For our particular case, we tend to care more about the first one, since one can always re-lock the laser for experiments.
+% The Allan variance as described in section 2 measures how well an oscillator (or more specifically a laser) performs over an extended period of time as noise continuously averages out
+
+Two locking mechanisms used in the development of this thesis. They are known as Saturated Absorption Spectroscopy (SAS) and Dichroic Atomic Vapor Laser Lock (DAVLL). Both of these mechanisms use a warm atomic vapor as a reference, and both can be used to lock the laser to a specific transition . The main difference between them is that SAS uses a counter-propagating pump and probe beam to achieve sub-Doppler resolution %\cite{Wieman1976}
+, while DAVLL, based on the SAS protocol, adds a controlled magnetic field to achieve a higher quality signal in the zeeman manifold. %\cite{Corwin1998}.
+
+% \begin{figure}[ht]
+%     \centering
+%     \includegraphics[width=1\columnwidth]{Images/DAVLLSAS.png}  
+%     \caption{ a) Saturated Absorption Spectroscopy (SAS) setup. A laser beam is split into a strong pump and a weak probe beam, which counter-propagate through a vapor cell. The transmitted probe beam is detected using a photodiode. b) Dichroic Atomic Vapor Laser Lock (DAVLL) setup. A linearly polarized laser beam passes through a vapor cell placed in a magnetic field, which splits the atomic energy levels via the Zeeman effect. The transmitted light is analyzed using a quarter-wave plate and a polarizing beam splitter, creating two circularly polarized components that are detected by two photodiodes. 
+%     % The difference between these signals provides an error signal for locking the laser frequency.
+%     Figure adapted from \cite{Mausezahl_Munkes_Löw_2024}}
+%     \label{SASDAVLL}    
+% \end{figure}
+
+
+
+% The resonance cell, containing the ensemble of alkali atoms, is placed inside a microwave cavity tuned to the transition between which the population inversion has been created. The light transmitted is detected with the help of a photodetector, as shown in FIG. 1. It is to be noted that, upon optical pumping, the cell becomes transparent to the incident radiation since atoms are pumped out of the absorbing level, F=1. Microwave energy is fed to the cavity and its effect on the atoms, when tuned to the hyperfine frequency, is to alter the population of the two levels of the ground state and, consequently, the optical transmission of the ensemble. The ground state hyperfine resonance signal is thus detected on the transmitted light and is used to lock the frequency of the microwave source used to feed the cavity. The resulting device is a system whose frequency is locked to an atomic resonance. (https://patents.google.com/patent/US6320472B1/en)
+
+
+
+
+% Of the techniques presented in section 5.1, both side-of-fringe and dither locking can be directly applied to an atomic resonance observed in transmission through a reference vapor cell [99]. This configuration however suffers from inherent Doppler broadening, especially if additional heating beyond room-temperature is required to achieve sufficient vapor densities. SAS refers to a setup, where the incident laser beam is split into a probe and a pump beam, which then cross the vapor cell in a counter-propagating fashion [100–102]. Figure 6 shows two methods derived from SAS with additional polarization optics, whereas the most basic form requires no additional polarizers and just one photodetector. Doing so creates so-called sub-Doppler Lamb dips in the transmission spectrum at the frequency of the atomic resonances. Their specific shape and linewidth is subject to beam-diameters, temperatures, angles, and external fields [101, 103]. Whilst SAS is most commonly just understood as a spectroscopy method, it is occasionally referred to as a locking technique on its own in scientific publications. If done so, this mostly refers to a dither lock by means of laser current modulation applied around a Lamb dip achieved through SAS [104–106]. Staying in line with the naming conventions, the name WMS is also used to differentiate it from FMS described below [39]. SAS and all derived schemes presented below can often be applied to pairs of pump and probe lasers at different frequencies in very similar configurations. This is useful to lock lasers which are not directly coupled to a ground state.
+
+
+% While the previous section on cavities inevitably required the discussion of the stability and stabilization of such devices themselves, atomic or molecular transitions are seen as the ultimate source of frequency stability and absolute precision. Locking a laser to an atomic resonance instead of a cavity works not fundamentally different either. Much rather, many of the previously stated ideas and schemes can be directly applied (and get different names nevertheless). This however comes at the cost of versatility: Resonances can only be found at specific frequencies and come in fixed strengths and linewidths. Moreover, atomic resonances are not as stable as they seem to be at the first glance, being influenced by external electric and magnetic fields, other atoms in their vicinity, as well as their own movement [37]. Consequently, laser locking techniques using atomic standards can be roughly divided into two categories: First, there are compact vapor cell based devices used to produce light which is to be interfaced with another sample of the same atomic species. In this configuration the described linewidth and versatility limits are actually advantageous, since they are intrinsically suitable for the application. The second category includes typically room-filling experiments which opt to set frequency standards based on optical transitions in state-of-the-art optical atomic clocks [96]. For the purposes of this tutorial, we primarily have the first category in mind, even though the fundamental techniques are not strictly different but rather more elaborate in the second case. All schemes discussed in the following section broadly fall under the umbrella of laser spectroscopy techniques which are detailed in textbook literature such as the ones by Demtröder [97, 98].
+
+
+% Another approach to introduce an anisotropy into a vapor sample relies on Zeeman shifts through externally applied magnetic fields. Different schemes which employ modulated and static magnetic fields have been proposed [117–119], of which the DAVLL remains the seemingly most widespread variant since its publication in 1998 [120] and extension to SAS around 2003 [121, 122]. Figure 6(b) depicts the principle setup, which, being another SAS based method, shows noticeable similarities to the polarization spectroscopy lock. Both indeed rely on a balanced detection, but DAVLL is typically understood to be probing the dichroic σ± components using a quarter wave plate and PBS combination instead of the ellipticity birefringent measurement described above. Since the Zeeman splitting lifts the degeneracy of different m states, the method effectively probes the difference in transmission between all ∆m = −1 and ∆m = +1 transitions. On resonance, both are identical, while any detuning will lead to a stronger contribution in either direction. The resulting difference signal is again dispersive and might be optimized using the magnetic field strength [123]. The DAVLL scheme again shares many of the advantages and drawbacks with polarization spectroscopy locking, including its simplicity, the lack of modulation at cost of high technical noise, limited capture range, Doppler background, and sensitivity to external fields. The stability and thermal influence of any magnetic field coil can be challenging [124, 125], but some effort went into optimizing, embedding, or miniaturizing DAVLL based locking systems in recent years [4, 126–128].
+
+\subsubsection*{SAS and DAVLL}
+
+SAS, also known as Doppler Free Spectroscopy, is a technique that allows for the observation and determination of atomic and fine transition frequencies without the effects of Doppler broadening. This is useful when probing atomic vapors, where the thermal motion of atoms can lead to significant broadening of spectral lines.
+
+To illustrate the technique, consider a warm atomic cell (between 30--100 $^{\circ}$C) with a weak probe propagating in it. If the atoms have a velocity profile, then atoms will see different frequencies depending on where and how they are moving; something we usually call \textit{Doppler Shift}. If we scan the laser in frequency, we will lose finer transitions due to the thermal noise. In this sense, we are limited to a certain resolution set by the Doppler broadening. For rubidium at room temperature this broadening is around 300 MHz, much larger than the natural linewidth of the $D_2$ transition (6 MHz). 
+
+To overcome this limitation, a counter-propagating strong pump beam is introduced along with the weak probe. The pump beam saturates a set of atomic transitions, while the probe measures the resulting absorption. This configuration produces the familiar Doppler-broadened background but, importantly, a narrow dip (\textit{Lamb dip}) appears at the resonance frequency $\nu = \nu_0$.
+
+The physical mechanism behind this dip is that the pump and probe interact with different velocity classes of atoms. While the probe absorption originates from atoms moving in one direction, the pump simultaneously depletes the population of atoms moving in the opposite direction. When both beams address the same group of atoms (i.e., atoms with zero velocity relative to the laser), the transition saturates, leading to a reduction in probe absorption at the exact resonance. This feature provides the Doppler-free signature needed for precise frequency determination and laser frequency stabilization.
+
+In addition to the central Lamb dips, crossover resonances can also appear. These arise when the Doppler-broadened profile of two nearby transitions overlaps. In this case, a particular velocity class of atoms can simultaneously satisfy resonance conditions for the probe on one transition and for the pump on another. As a result, the observed crossover resonance signal is typically stronger—often about twice the size of a normal Lamb dip—making it a useful reference feature in saturated absorption spectroscopy.
+
+% Using a counter propagating strong pump, we saturate a range of transitions and probe through them which will result in a Doppler-broadened profile with what's called a saturated absorption dip (or Lamb dip) right at $\nu = \nu_0$.
+
+% The probe absorption arises from atoms moving with a particular velocity in one direction while the pump beam is burning a hole for a completely different set of atoms with the opposite velocity.
+
+% When the pump saturates the medium, the excited state will saturate, leading to a dip in the absorption spectra at that specific frequency this allows us to identify specific frequencies and lock to them.
+
+% If the Doppler broadening covers both resonances, there exists a class of atoms with a particular velocity that will be resonant with both probe and pump at the same time, but on different transitions. In general, the crossover signal will be twice as big.
+
+
+% \subsubsection{Dichroic Atomic Vapor Laser Lock (DAVLL)}
+
+
+DAVLL systems can also be operated in the Doppler-free mode, in which a narrow differential absorption signal is used, resulting in a more precise locking of the laser frequency, at the cost of a smaller capture range.
+% G. Wasik, W. Gawlik, J. Zachorowski, and W. Zawadzki, Appl. Phys. B 75, 613 (2002).
+% 4T. Petelski, M. Fattori, G. Lamporesi, J. Stuhler, and G. Tino, Eur. Phys. J. D 22, 279
+% (2003).
+% 5S. Knappe, H. G. Robinson, and L. Hollberg, Opt. Express 15, 6293 (2007).
+% 6C. Affolderbach and G. Mileti, Rev. Sci. Instrum. 76, 073108 (2005).
+
+
+
+
+
+\section*{Laser Linewidth}
+Also known as Full Width Half Maximum (FWHM)  This linewidth is where we consider a cavity being resonant. It is usually a Lorentzian distribution.
 The ideal case of a laser would be a delta distribution in frequency, but even for us physicists, that's too ideal.
 The linewidth of a light beam is strongly related to the temporal coherence.
+We can measure the Linewidth with the setup,
+
+And comparing the linewidth of Laser 1 with and witouth cavity and piezo feedback, we get the following results:
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\textwidth]{img/Image1fits.png}
+    \caption{Coherence time $\tau_c$ of Laser 1 with and without external cavity feedback controlled with piezoelectric. Figure From Florencia Fuentes.}
+    \label{fig:linewidths}
+\end{figure}
 
 
 \section*{Gaussian Beam}
 (Check the book of Saleh and Teich, Fundamentals of Photonics for the official reference!)
 
-\section*{Bragg Reflections in Rubidium Vapors}
-\addcontentsline{toc}{section}{Bragg Reflections in Rubidium Vapors}
+\section{A Quick Guide on Cooling Atoms}
 
-\subsection*{How in earth do I find the Rubidium Transition Wavelengths in the experiment?}
+In this section I will briefly explain how we manage to cool a group of atoms ($10^8$) down to hundreds of a few hundred micro Kelvin. This is an essential for experiments in atomic physics, as cold atoms have paved a way for incredible discoveries such as Bose Einstein Condensates, precision atomic clocks, quantum memories, and so much more. %(\cite{Anderson_1995})
+ %(\cite{LudlowBoyd2015})
+ %(\cite{SaglamyurekLeBlanc_2018})
+ %(\cite{IsichenkoChauhan_2024}).
+The most popular procedure (but not the only one by far) to generate this cloud of atoms is called Magneto Optical Trapping, better known as MOT.  
+While a MOT can typically cool atoms to the \textit{Doppler limit} (a few hundred micro Kelvin for rubidium), one can make use of more than one mechanism, such as Sisyphus cooling, Raman sideband cooling and optical molasses; which in certain situations can help cool even further, down to nanokelvin scale. This means that on earth, we can effectively reach temperatures colder than those found in deep space.
+
+However, the focus of this section will be to explain, in hopefully rather simple concepts from what we have discussed seen so far, how a MOT works.
+For this goal, we will describe different processes that belong to the interaction and conclude with putting everything together to explain the MOT mechanism and hopefully illustrate why this has been revolutionary to understand light matter interactions.
+
+% can reach sub-Doppler regimes in the tens of $\mu$K, and Raman sideband cooling can push even further into the nanokelvin scale. In what follows, however, our focus will remain on explaining in simple terms how a MOT works.
+%  One can of course, use more than one procedure which will  tend to generate a better (colder and/or bigger) set of atoms. But our focus for this section will be to explain, in rather simple words, how a MOT works.
+
+% One can, of course, combine techniques to improve performance: while a MOT typically cools atoms to the Doppler limit of a few hundred $\mu$K, additional mechanisms such as polarization-gradient (Sisyphus) cooling can reach sub-Doppler regimes in the tens of $\mu$K, and Raman sideband cooling can push even further into the nanokelvin scale. In what follows, however, our focus will remain on explaining in simple terms how a MOT works.
+
+
+% how one might slow down an atomic beam of
+% sodium using the radiation pressure of a laser beam
+% tuned to an atomic resonance. After being slowed, the
+% atoms would be captured in a trap consisting of focused
+% laser beams, with the atomic motion being damped until
+% the temperature of the atoms reached the microkelvin
+% range
+
+
+% How this creates a viscous, friction-like environment (like “molasses”).
+% Cooling limit: Doppler limit (and a mention of sub-Doppler mechanisms if you want).
+
+\subsection{Light Forces}
+
+
+% https://journals.aps.org/prl/pdf/10.1103/PhysRevLett.40.729 
+% https://cdn.journals.aps.org/files/RevModPhys.70.721.pdf 
+
+When radiation interacts with matter, the process of absorption will generate a change in the momentum of the object associated to the force on the object. From classical mechanics, and using the Ehrenfest theorem, we can relate the force on an object to the time derivative of the expectation value of its momentum operator:
+\begin{equation}
+    F = \frac{d \langle \vec{p}\rangle}{dt} = M \frac{d \langle \vec{v}\rangle}{dt} = \frac{1}{i \hbar} \langle [\vec{p}, H] \rangle .
+\end{equation}
+If we replace the two-level atom Hamiltonian in the presence of an electric field in this equation, we can calculate the forces on the atom due to the interaction with light. This force contains two components, where the first one is usually called \textit{Dipolar Force}; and the latter is known as \textit{Radiation Pressure}
+\begin{equation}
+    \vec{F} = \frac{2 \hbar}{\Omega_0(\vec{R})} \Delta \sigma_{ee}^{st} \vec{\nabla}_{R} \Omega_0(\vec{R}) + \hbar  \Gamma \sigma_{ee}^{st} \vec{\nabla} \phi(\vec{R}),
+\end{equation}
+$\vec{R}$ corresponds to the position of the center of mass of the atom. $\sigma_{ee}^{st}$ is the steady state solution of the bloch euations for the excited state population. $\Gamma$ is the spontaneous emission rate of the excited state ($2 \pi \times 6.05$ MHz for $Rb^{D2}$).
+
+The dipolar force corresponds to a conservative potential, is proportional to the gradient of the intensity of the light field, shown by the Rabi frequency $\Omega_0$, and decays with the detuning as $1/\Delta$. This is the force responsible for the trapping of atoms in optical dipole traps.
+The radiation pressure, on the other hand, is proportional to the scattering rate of photons by the atom, and decays with detuning as $1/\Delta^2$. This force is responsible for the cooling of atoms in optical molasses and magneto-optical traps.
+% A laser will produce monochromatic coherent light which will be able to slow down the movement of atoms interacting with it. One can follow \cite{footAtom} for a deeper explanation on how to obtain the scattering force:
+% \begin{equation}
+%     F_{scatt} = \hbar k \frac{\Gamma}{2} \frac{I/I_{sat}}{1 + I/I_{sat} + 4 \delta^2/\Gamma^2}
+% \end{equation}
+
+
+% Trapping of Atoms by Resonance Radiation Pressure \cite{Ashkin1978}
+
+% Laser cooling and trapping of neutral atoms \cite{phillips_1998}
+
+% Momentum transfer from photons to atoms.
+% Force from absorption vs. random recoil from spontaneous emission.
+% The concept of Doppler cooling force (velocity-dependent).
+% Radiation pressure arises from the transfer of momentum between light and matter, and constitutes one of the fundamental mechanisms through which electromagnetic fields exert mechanical forces. When a photon impinges on an atom, it can be absorbed and subsequently re-emitted, imparting a net momentum change to the atom. This process, known as the scattering force, acts in the direction of photon propagation and scales with the photon flux, saturating at high intensities due to the finite excited-state population. In the context of laser cooling and trapping, the scattering force plays a central role, as it provides the dissipative mechanism required to decelerate atomic motion and achieve sub-millikelvin temperatures.
+\subsection{Optical Molasses}
+
+Is the name given to the technique which uses counter-propagating beams in three orthogonal directions along the cartesian axes. These lasers all share the same frequency, which is slightly red-detuned from an atomic transition. 
+Due to the Doppler effect, moving atoms will feel a slowing force (as if they were travelling in molasses) and stationary atoms with respect to the center where all lasers intersect will not feel any external force.
+Since the lasers are relatively close to resonance, the force comes from the radiation pressure term of the light forces discussed before. The force on an atom moving with velocity $\vec{v}$ due to two counter-propagating laser beams in 1D can be written as:
+\begin{equation}
+    \vec{F}_{\pm}= \gamma_{\pm} \hbar \vec{k}_{\pm} = \pm \frac{1}{2} \frac{s_0 \hbar \vec{k} \Gamma }{1 + s_0 + 4((\Delta_0 \mp k v)/\Gamma)^2},
+\end{equation}
+where $s_0 = 2\Omega_0^2/\Gamma^2$ is the on-resonance saturation parameter, $\Delta_0$ is the detuning of the laser from the atomic resonance, and $\vec{k}_{\pm}$ are the wavevectors of the two beams. The total force on the atom is then given by $\vec{F} = \vec{F}_+ + \vec{F}_-$.\\
+The velocity capture range $\Delta v$ of such a process is determined by the natural width $\Gamma$ of the atomic excited state. As is, atoms will begin to accumulate slowly in the center of the trap. There is however a limit to how cold one can get atoms using only this method, known as the Doppler limit. This limit arises from the balance between the cooling force (radiation pressure) and the heating effect due to statistical fluctuations. The minimum achievable temperature, known as the Doppler temperature $T_D$ for a number of dimensions $D$, is given by %(\cite{Dalibard_CohenTannoudji_1989}):
+\begin{equation}
+    T_D^{min} = \frac{\hbar \Gamma}{2 k_B}.
+\end{equation}
+% 
+For a rubidium atom, since $\Gamma = 2\pi(6.05 \times 10^6)$ rad/s this temperature is around $140 \mu$K.
+To overcome this limit, an addition of polarization and magnetic field engineering makes this method much more effective, something we will know as Magneto-Optical Trapping.
+
+
+\subsection{Magneto-Optical Trap}
+
+As mentioned, the addition of a set of coils in anti-Helmholtz configuration manage to diminish the effects of any external magnetic field, and maybe most importantly, generate a magnetic field gradient outside the center of the trap. This gradient induces spatially varying Zeeman shifts in the atoms that are farther from the center.
+Adding then the circular polarization of the counter-propagating beams ensures atoms preferentially scatter photons that push them back to the trap center.
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.7\columnwidth]{img/motB.png}   
+    \caption{
+        Illustrated mechanism of a magneto optical trap.} 
+\label{motdrawing}
+\end{figure}
+
+
+% \section*{Bragg Reflections in Rubidium Vapors}
+% \addcontentsline{toc}{section}{Bragg Reflections in Rubidium Vapors}
+
+\section*{How in earth do I find the Rubidium Transition Wavelengths in the experiment?}
 \addcontentsline{toc}{section}{Find the Rubidium Transition Wavelengths}
 
 To start finding the resonances in the DAVLL system (see Fig \ref{fig:curvas}), you first will have to turn on the following (in no particular order, don't worry!):
@@ -230,12 +420,11 @@ Invented at MIT and first demonstrated at Bell Labs [4], it combines the abiliti
     \item Doppler Temperature Limit and Doppler Molasses
     \item Effects of the Zeeman shift on light scattering
     \item Sub-Doppler Cooling
-    \item 
 \end{enumerate}
 
 
 \section*{Cooking up (Freezing up?) a MOT}
-How do we afford to get to these very low pressures ? We have to literally cook the MOT at 100 Celcius for a determined amount of time, this, so we can clear up any impurities that might be present in the chamber. This is a very important step, since the MOT vacuum has to be arount $10^{-8}$ Torr.
+How do we afford to get to these very low pressures ? We have to literally cook the MOT vacuum equipment at 100 Celcius for a determined amount of time (days?), this, so we can clear up any impurities that might be present in the chamber. This is a very important step, since the MOT vacuum has to be around $10^{-8}$ Torr.
 
 \newpage
 \subsection*{Atomic Structure}

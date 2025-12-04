@@ -2,5 +2,8 @@
 \contentsline {section}{Rubidium Structure}{2}{section*.3}%
 \contentsline {section}{How to make Laser 2 and 3 work}{2}{section*.4}%
 \contentsline {section}{Laser Theory Introduction}{3}{section*.5}%
-\contentsline {section}{Bragg Reflections in Rubidium Vapors}{3}{section*.10}%
-\contentsline {section}{Find the Rubidium Transition Wavelengths}{3}{section*.11}%
+\contentsline {section}{\numberline {1}A Quick Guide on Cooling Atoms}{5}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Light Forces}{5}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Optical Molasses}{5}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Magneto-Optical Trap}{5}{subsection.1.3}%
+\contentsline {section}{Find the Rubidium Transition Wavelengths}{6}{section*.13}%
